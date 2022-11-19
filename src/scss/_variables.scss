@@ -1,0 +1,30 @@
+.btn_4 {
+  width: 44px;
+  height: 37px;
+  background-color: #000;
+  position: absolute;
+  right: 25px;
+  &__burger-icon {
+    width: 44px;
+    height: 37px;
+  }
+  &__burger-icon::after {
+    content: url(/dist/img/burger-menu.svg);
+    position: absolute;
+    top: 9px;
+    left: 13px;
+  }
+  &__close-icon {
+    width: 44px;
+    height: 37px;
+  }
+  &__close-icon::after {
+    content: url(/dist/img/close-menu.svg);
+    position: absolute;
+    top: 11px;
+    left: 14px;
+  }
+  &__icon--hidden {
+    display: none;
+  }
+}

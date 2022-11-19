@@ -1,0 +1,11 @@
+@import '_header';
+@import '_mixins';
+@import '_variables';
+
+.test {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
