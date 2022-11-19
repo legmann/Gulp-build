@@ -27,7 +27,7 @@ const path = {
     scss: "./src/scss",
     js: "./src/js",
     img: "./src/img/**",
-    html: "./src",
+    html: "./*.html",
   },
 
   dist: {
@@ -155,7 +155,7 @@ function watch() {
 }
 
 
-const build = series(clean, html, styles, scripts, images, watch);
+const build = series(clean, styles, scripts, images, watch);
 
 exports.scripts = scripts;
 exports.styles = styles;
